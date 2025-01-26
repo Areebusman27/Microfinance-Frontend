@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I have created the frontend of microfinance web-app. I have used resend email for sending the email to the loan user. I have also created separate dashboard for admin and user. I have also created a loan calculator and gurantor forms.
 
 ## Getting Started
 
