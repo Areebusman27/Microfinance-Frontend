@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { sendEmail } from "../resendemail/page";
+// import { sendEmail } from "../resendemail/page";
 
 export default function LoanCalculator() {
   const [loanAmount, setLoanAmount] = useState("");
@@ -170,12 +170,12 @@ export default function LoanCalculator() {
                 className="loan-input"
               />
             </label>
-            <button type="button" className="loan-button" onClick={sendEmail}>
+            {/* <button type="button" className="loan-button" onClick={sendEmail}>
                 Submit
-              </button>
+              </button> */}
             <Link href="/login" passHref>
               <button type="button" className="loan-button">
-                 Continue to Login
+                Submit and Continue to Login
               </button>
             </Link>
            
